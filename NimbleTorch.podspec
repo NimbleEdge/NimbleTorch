@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NimbleTorch'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Torch custom build for supporting bit code on iOS'
 
 # This description is used to generate tags and improve search results.
