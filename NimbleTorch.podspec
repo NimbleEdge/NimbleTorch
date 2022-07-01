@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'NimbleTorch'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of NimbleTorch.'
+  s.summary          = 'Torch custom build for supporting bit code on iOS'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+We have custom built our torch module by disablingn qnnpack to enable bitcode on sdk.
                        DESC
 
   s.homepage         = 'https://github.com/NimbleEdge/NimbleTorch'
@@ -46,12 +46,14 @@ TODO: Add long description of the pod here.
         'HEADER_SEARCH_PATHS' => '$(inherited) "/Users/ayushb/tmp/NimbleTorch/install/include/"',
         'OTHER_LDFLAGS' => '-force_load "/Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a" -force_load "/Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a"',
         'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
         'CLANG_CXX_LIBRARY' => 'libc++'
     }
   s.pod_target_xcconfig = {
         'HEADER_SEARCH_PATHS' => '$(inherited) "/Users/ayushb/tmp/NimbleTorch/install/include/"',
         'VALID_ARCHS' => 'arm64',
-	'ENABLE_BITCODE' => 'YES' 
+        'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64',
+        'ENABLE_BITCODE' => 'YES'
 
     }
   s.library = ['c++', 'stdc++']

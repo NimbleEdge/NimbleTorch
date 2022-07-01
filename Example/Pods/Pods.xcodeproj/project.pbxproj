@@ -486,6 +486,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/NimbleTorch/NimbleTorch.modulemap";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_MODULE_NAME = NimbleTorch;
 				PRODUCT_NAME = NimbleTorch;
 				SDKROOT = iphoneos;
