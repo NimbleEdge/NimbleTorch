@@ -50,7 +50,7 @@ TODO: Add long description of the pod here.
     }
   s.pod_target_xcconfig = {
         'HEADER_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/NimbleTorch/install/include/"',
-        'VALID_ARCHS' => 'x86_64 arm64'
+        'VALID_ARCHS' => 'x86_64 arm64',
 	'ENABLE_BITCODE' => 'YES' 
 
     }
