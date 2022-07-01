@@ -43,14 +43,14 @@ TODO: Add long description of the pod here.
         ss.libraries = ['c++', 'stdc++']
     end
   s.user_target_xcconfig = {
-        'HEADER_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/NimbleTorch/install/include/"',
-        'OTHER_LDFLAGS' => '-force_load "$(PODS_ROOT)/NimbleTorch/install/lib/libtorch.a" -force_load "$(PODS_ROOT)/NimbleTorch/install/lib/libtorch_cpu.a"',
+        'HEADER_SEARCH_PATHS' => '$(inherited) "/Users/ayushb/tmp/NimbleTorch/install/include/"',
+        'OTHER_LDFLAGS' => '-force_load "/Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a" -force_load "/Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a"',
         'CLANG_CXX_LANGUAGE_STANDARD' => 'c++14',
         'CLANG_CXX_LIBRARY' => 'libc++'
     }
   s.pod_target_xcconfig = {
-        'HEADER_SEARCH_PATHS' => '$(inherited) "$(PODS_ROOT)/NimbleTorch/install/include/"',
-        'VALID_ARCHS' => 'x86_64 arm64',
+        'HEADER_SEARCH_PATHS' => '$(inherited) "/Users/ayushb/tmp/NimbleTorch/install/include/"',
+        'VALID_ARCHS' => 'arm64',
 	'ENABLE_BITCODE' => 'YES' 
 
     }

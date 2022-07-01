@@ -1,0 +1,6 @@
+framework module NimbleTorch {
+  umbrella header "NimbleTorch-umbrella.h"
+
+  export *
+  module * { export * }
+}

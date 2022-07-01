@@ -1,0 +1,858 @@
+
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+ -> NimbleTorch  NimbleTorch (0.1.0) - Analyzing on iOS 13.0 platform.
+  - Generating Info.plist file at `../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist`
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-App`: (``)
+
+Fetching external sources
+-> Fetching podspec for `NimbleTorch` from `/Users/ayushb/tmp/NimbleTorch`
+
+Resolving dependencies of 
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+
+Comparing resolved specification to the sandbox manifest
+  A NimbleTorch
+
+Downloading dependencies
+
+-> Installing NimbleTorch (0.1.0)
+  - Running pre install hooks
+  - Writing Lockfile in `../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Podfile.lock`
+  - Writing Manifest in `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Manifest.lock`
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Adding development pod helper files
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `NimbleTorch` iOS 13.0
+  - Installing Aggregate Targets
+    - Installing target `Pods-App` iOS 13.0
+      - Generating dummy source at `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target Support Files/Pods-App/Pods-App-dummy.m`
+  - Stabilizing target UUIDs
+  - Running post install hooks
+  - Writing Xcode project file to `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `App.xcworkspace` for this project from now on.
+
+Integrating target `Pods-App` (`../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcodeproj` project)
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post integrate hooks
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+  Building with `xcodebuild`.
+    $ /usr/bin/xcodebuild clean build -workspace /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=EEF710CA-177E-41F1-A166-602A9E6225BE
+    2022-07-01 12:17:09.601 xcodebuild[17860:124856] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    2022-07-01 12:17:09.601 xcodebuild[17860:124856] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean build -workspace /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=EEF710CA-177E-41F1-A166-602A9E6225BE
+    
+    User defaults from command line:
+        IDEPackageSupportUseBuiltinSCM = YES
+    
+    Build settings from command line:
+        CODE_SIGN_IDENTITY = -
+        SDKROOT = iphonesimulator15.5
+    
+    note: Using new build system
+    note: Using codesigning identity override: -
+    note: Build preparation complete
+    
+    ** CLEAN SUCCEEDED **
+    
+    note: Using new build system
+    note: Using codesigning identity override: -
+    note: Planning
+    Analyze workspace
+    
+    Create build description
+    Build description signature: 1b8f85182199d8effdf76b4c30a37b87
+    Build description path: /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/XCBuildData/1b8f85182199d8effdf76b4c30a37b87-desc.xcbuild
+    
+    note: Build preparation complete
+    note: Building targets in dependency order
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/NimbleTorch
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/NimbleTorch
+    
+    MkDir /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /bin/mkdir -p /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/all-product-headers.yaml (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-non-framework-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-non-framework-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements.plist
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements-Simulated.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements-Simulated.plist
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target arm64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_RELEASE\=1 -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources-normal/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.o
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_RELEASE\=1 -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources-normal/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.o
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList
+    
+    ProcessProductPackaging "" /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app.xcent (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        
+        Entitlements:
+        
+        {
+        "com.apple.security.get-task-allow" = 1;
+    }
+        
+        builtin-productPackagingUtility -entitlements -format xml -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app.xcent
+    
+    ProcessProductPackaging "" /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        
+        Entitlements:
+        
+        {
+        "application-identifier" = "F7RVQX2U58.org.cocoapods.App";
+    }
+        
+        builtin-productPackagingUtility -entitlements -format xml -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/all-product-headers.yaml (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-non-framework-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-non-framework-target-headers.hmap
+    
+    Libtool /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a normal arm64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export IPHONEOS_DEPLOYMENT_TARGET\=13.0
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList -dependency_info /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App_libtool_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a
+    
+    Libtool /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a normal x86_64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export IPHONEOS_DEPLOYMENT_TARGET\=13.0
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList -dependency_info /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App_libtool_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a
+    
+    CreateUniversalBinary /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/libPods-App.a normal arm64\ x86_64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/libPods-App.a
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-1FF76ABC62AB893B9D82BC19.sh (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-1FF76ABC62AB893B9D82BC19.sh
+    
+    ProcessInfoPlistFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/Info.plist /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-infoPlistUtility /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/Info.plist
+    
+    PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-1FF76ABC62AB893B9D82BC19.sh (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /bin/sh -c /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-1FF76ABC62AB893B9D82BC19.sh
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources-normal/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.o
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target arm64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources-normal/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.o
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList
+    
+    Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/Binary/App normal x86_64 (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App_lto.o -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -ObjC -lc++ -lc10 -lclog -lcpuinfo -leigen_blas -lpthreadpool -lstdc++ -ltorch -ltorch_cpu -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent -framework Foundation -lPods-App -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/Binary/App
+    ** BUILD FAILED **
+    
+    
+    The following build commands failed:
+    	Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App normal arm64 (in target 'App' from project 'App')
+    (1 failure)
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libclog.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libcpuinfo.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libc10.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libeigen_blas.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libpthreadpool.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    
+    Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App normal arm64 (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App_lto.o -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -ObjC -lc++ -lc10 -lclog -lcpuinfo -leigen_blas -lpthreadpool -lstdc++ -ltorch -ltorch_cpu -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent -framework Foundation -lPods-App -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App
+    ld: in /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a(empty.cpp.o), building for iOS Simulator, but linking in object file built for iOS, file '/Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a' for architecture arm64
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    
+  Testing with `xcodebuild`.
+  NimbleTorch/Core (0.1.0) - Analyzing on iOS 13.0 platform.
+  - Generating Info.plist file at `../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist`
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-App`: (``)
+
+Fetching external sources
+-> Fetching podspec for `NimbleTorch` from `/Users/ayushb/tmp/NimbleTorch`
+
+Resolving dependencies of 
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+
+Comparing resolved specification to the sandbox manifest
+  A NimbleTorch
+
+Downloading dependencies
+
+-> Installing NimbleTorch (0.1.0)
+  - Running pre install hooks
+  - Writing Lockfile in `../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Podfile.lock`
+  - Writing Manifest in `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Manifest.lock`
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Adding development pod helper files
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `NimbleTorch` iOS 13.0
+  - Installing Aggregate Targets
+    - Installing target `Pods-App` iOS 13.0
+      - Generating dummy source at `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target Support Files/Pods-App/Pods-App-dummy.m`
+  - Stabilizing target UUIDs
+  - Running post install hooks
+  - Writing Xcode project file to `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `App.xcworkspace` for this project from now on.
+
+Integrating target `Pods-App` (`../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcodeproj` project)
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post integrate hooks
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+  Building with `xcodebuild`.
+    $ /usr/bin/xcodebuild clean build -workspace /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=EEF710CA-177E-41F1-A166-602A9E6225BE
+    2022-07-01 12:17:12.288 xcodebuild[17898:125053] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    2022-07-01 12:17:12.288 xcodebuild[17898:125053] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean build -workspace /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=EEF710CA-177E-41F1-A166-602A9E6225BE
+    
+    User defaults from command line:
+        IDEPackageSupportUseBuiltinSCM = YES
+    
+    Build settings from command line:
+        CODE_SIGN_IDENTITY = -
+        SDKROOT = iphonesimulator15.5
+    
+    note: Using new build system
+    note: Using codesigning identity override: -
+    note: Build preparation complete
+    
+    ** CLEAN SUCCEEDED **
+    
+    note: Using new build system
+    note: Using codesigning identity override: -
+    note: Planning
+    Analyze workspace
+    
+    Create build description
+    Build description signature: 1bfc906f61aae4fb7752e2b75d8b8f35
+    Build description path: /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/XCBuildData/1bfc906f61aae4fb7752e2b75d8b8f35-desc.xcbuild
+    
+    note: Build preparation complete
+    note: Building targets in dependency order
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/NimbleTorch
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/NimbleTorch
+    
+    MkDir /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /bin/mkdir -p /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/all-product-headers.yaml (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-non-framework-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-non-framework-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements-Simulated.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements-Simulated.plist
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements.plist
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target arm64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_RELEASE\=1 -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources-normal/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.o
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_RELEASE\=1 -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources-normal/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.o
+    
+    ProcessProductPackaging "" /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app.xcent (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        
+        Entitlements:
+        
+        {
+        "com.apple.security.get-task-allow" = 1;
+    }
+        
+        builtin-productPackagingUtility -entitlements -format xml -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app.xcent
+    
+    ProcessProductPackaging "" /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        
+        Entitlements:
+        
+        {
+        "application-identifier" = "F7RVQX2U58.org.cocoapods.App";
+    }
+        
+        builtin-productPackagingUtility -entitlements -format xml -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/all-product-headers.yaml (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-non-framework-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-non-framework-target-headers.hmap
+    
+    Libtool /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a normal arm64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export IPHONEOS_DEPLOYMENT_TARGET\=13.0
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList -dependency_info /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App_libtool_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a
+    
+    Libtool /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a normal x86_64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export IPHONEOS_DEPLOYMENT_TARGET\=13.0
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList -dependency_info /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App_libtool_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a
+    
+    CreateUniversalBinary /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/libPods-App.a normal arm64\ x86_64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/libPods-App.a
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-786846BDC77D9A1960021A20.sh (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-786846BDC77D9A1960021A20.sh
+    
+    ProcessInfoPlistFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/Info.plist /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-infoPlistUtility /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/Info.plist
+    
+    PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-786846BDC77D9A1960021A20.sh (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /bin/sh -c /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-786846BDC77D9A1960021A20.sh
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources-normal/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.o
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target arm64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public -I/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Headers/Public/NimbleTorch -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources-normal/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.o
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList
+    
+    Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App normal arm64 (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App_lto.o -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -ObjC -lc++ -lc10 -lclog -lcpuinfo -leigen_blas -lpthreadpool -lstdc++ -ltorch -ltorch_cpu -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent -framework Foundation -lPods-App -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App
+    ** BUILD FAILED **
+    
+    
+    The following build commands failed:
+    	Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App normal arm64 (in target 'App' from project 'App')
+    (1 failure)
+    ld: in /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a(empty.cpp.o), building for iOS Simulator, but linking in object file built for iOS, file '/Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a' for architecture arm64
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    
+    Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/Binary/App normal x86_64 (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App_lto.o -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -ObjC -lc++ -lc10 -lclog -lcpuinfo -leigen_blas -lpthreadpool -lstdc++ -ltorch -ltorch_cpu -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent -framework Foundation -lPods-App -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/Binary/App
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libc10.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libclog.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libcpuinfo.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libeigen_blas.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libpthreadpool.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    
+  Testing with `xcodebuild`.
+  NimbleTorch/Torch (0.1.0) - Analyzing on iOS 13.0 platform.
+  - Generating Info.plist file at `../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist`
+  Preparing
+
+Analyzing dependencies
+
+Inspecting targets to integrate
+  Using `ARCHS` setting to build architectures of target `Pods-App`: (``)
+
+Fetching external sources
+-> Fetching podspec for `NimbleTorch` from `/Users/ayushb/tmp/NimbleTorch`
+
+Resolving dependencies of 
+  CDN: trunk Relative path: CocoaPods-version.yml exists! Returning local because checking is only performed in repo update
+
+Comparing resolved specification to the sandbox manifest
+  A NimbleTorch
+
+Downloading dependencies
+
+-> Installing NimbleTorch (0.1.0)
+  - Running pre install hooks
+  - Writing Lockfile in `../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Podfile.lock`
+  - Writing Manifest in `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Manifest.lock`
+
+Generating Pods project
+  - Creating Pods project
+  - Installing files into Pods project
+    - Adding source files
+    - Adding frameworks
+    - Adding libraries
+    - Adding resources
+    - Adding development pod helper files
+    - Linking headers
+  - Installing Pod Targets
+    - Installing target `NimbleTorch` iOS 13.0
+  - Installing Aggregate Targets
+    - Installing target `Pods-App` iOS 13.0
+      - Generating dummy source at `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target Support Files/Pods-App/Pods-App-dummy.m`
+  - Stabilizing target UUIDs
+  - Running post install hooks
+  - Writing Xcode project file to `../../../../private/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Pods.xcodeproj`
+  Cleaning up sandbox directory
+
+Integrating client project
+
+[!] Please close any current Xcode sessions and use `App.xcworkspace` for this project from now on.
+
+Integrating target `Pods-App` (`../../../../var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcodeproj` project)
+  Adding Build Phase '[CP] Check Pods Manifest.lock' to project.
+  - Running post integrate hooks
+
+-> Pod installation complete! There is 1 dependency from the Podfile and 1 total pod installed.
+  Building with `xcodebuild`.
+    $ /usr/bin/xcodebuild clean build -workspace /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=EEF710CA-177E-41F1-A166-602A9E6225BE
+    2022-07-01 12:17:14.582 xcodebuild[17934:125185] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionSentinelHostApplications for extension Xcode.DebuggerFoundation.AppExtensionHosts.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    2022-07-01 12:17:14.583 xcodebuild[17934:125185] Requested but did not find extension point with identifier Xcode.IDEKit.ExtensionPointIdentifierToBundleIdentifier for extension Xcode.DebuggerFoundation.AppExtensionToBundleIdentifierMap.watchOS of plug-in com.apple.dt.IDEWatchSupportCore
+    Command line invocation:
+        /Applications/Xcode.app/Contents/Developer/usr/bin/xcodebuild clean build -workspace /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App.xcworkspace -scheme App -configuration Release CODE_SIGN_IDENTITY=- -sdk iphonesimulator -destination id=EEF710CA-177E-41F1-A166-602A9E6225BE
+    
+    User defaults from command line:
+        IDEPackageSupportUseBuiltinSCM = YES
+    
+    Build settings from command line:
+        CODE_SIGN_IDENTITY = -
+        SDKROOT = iphonesimulator15.5
+    
+    note: Using new build system
+    note: Using codesigning identity override: -
+    note: Build preparation complete
+    
+    ** CLEAN SUCCEEDED **
+    
+    note: Using new build system
+    note: Using codesigning identity override: -
+    note: Planning
+    Analyze workspace
+    
+    Create build description
+    Build description signature: 2a83c3a58ce8ca252ec95a6b3dfde1c7
+    Build description path: /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/XCBuildData/2a83c3a58ce8ca252ec95a6b3dfde1c7-desc.xcbuild
+    
+    note: Build preparation complete
+    note: Building targets in dependency order
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator
+    
+    CreateBuildDirectory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/NimbleTorch
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-create-build-directory /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/NimbleTorch
+    
+    MkDir /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /bin/mkdir -p /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-non-framework-target-headers.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-non-framework-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/all-product-headers.yaml (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements-Simulated.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements-Simulated.plist
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/Entitlements.plist
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_RELEASE\=1 -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources-normal/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App-dummy.o
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList
+    
+    ProcessProductPackaging "" /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app.xcent (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        
+        Entitlements:
+        
+        {
+        "com.apple.security.get-task-allow" = 1;
+    }
+        
+        builtin-productPackagingUtility -entitlements -format xml -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app.xcent
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target arm64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DPOD_CONFIGURATION_RELEASE\=1 -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Pods-App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources-normal/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/Target\ Support\ Files/Pods-App/Pods-App-dummy.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App-dummy.o
+    
+    ProcessProductPackaging "" /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        
+        Entitlements:
+        
+        {
+        "application-identifier" = "F7RVQX2U58.org.cocoapods.App";
+    }
+        
+        builtin-productPackagingUtility -entitlements -format xml -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/all-product-headers.yaml (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/all-product-headers.yaml
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-non-framework-target-headers.hmap (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-non-framework-target-headers.hmap
+    
+    Libtool /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a normal x86_64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export IPHONEOS_DEPLOYMENT_TARGET\=13.0
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only x86_64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App.LinkFileList -dependency_info /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Pods-App_libtool_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a
+    
+    Libtool /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a normal arm64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        export IPHONEOS_DEPLOYMENT_TARGET\=13.0
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static -arch_only arm64 -D -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App.LinkFileList -dependency_info /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Pods-App_libtool_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a
+    
+    CreateUniversalBinary /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/libPods-App.a normal arm64\ x86_64 (in target 'Pods-App' from project 'Pods')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/libtool -static /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/arm64/Binary/libPods-App.a /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/Pods.build/Release-iphonesimulator/Pods-App.build/Objects-normal/x86_64/Binary/libPods-App.a -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/libPods-App.a
+    
+    ProcessInfoPlistFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/Info.plist /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        builtin-infoPlistUtility /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/App-Info.plist -producttype com.apple.product-type.application -genpkginfo /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/App.app/Info.plist
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-4B302300B8C165A851751D8E.sh (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-4B302300B8C165A851751D8E.sh
+    
+    PhaseScriptExecution [CP]\ Check\ Pods\ Manifest.lock /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-4B302300B8C165A851751D8E.sh (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /bin/sh -c /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Script-4B302300B8C165A851751D8E.sh
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m normal arm64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target arm64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources-normal/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/arm64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/main.o
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList
+    
+    CompileC /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.o /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m normal x86_64 objective-c com.apple.compilers.llvm.clang.1_0.compiler (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        export LANG\=en_US.US-ASCII
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x objective-c -target x86_64-apple-ios13.0-simulator -fmessage-length\=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit\=0 -std\=gnu11 -fobjc-arc -fmodules -gmodules -fmodules-cache-path\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex -fmodules-prune-interval\=86400 -fmodules-prune-after\=345600 -fbuild-session-file\=/Users/ayushb/Library/Developer/Xcode/DerivedData/ModuleCache.noindex/Session.modulevalidation -fmodules-validate-once-per-build-session -Wnon-modular-include-in-framework-module -Werror\=non-modular-include-in-framework-module -Wno-trigraphs -fpascal-strings -Os -fno-common -Wno-missing-field-initializers -Wno-missing-prototypes -Werror\=return-type -Wdocumentation -Wunreachable-code -Wno-implicit-atomic-properties -Werror\=deprecated-objc-isa-usage -Wno-objc-interface-ivars -Werror\=objc-root-class -Wno-arc-repeated-use-of-weak -Wimplicit-retain-self -Wduplicate-method-match -Wno-missing-braces -Wparentheses -Wswitch -Wunused-function -Wno-unused-label -Wno-unused-parameter -Wunused-variable -Wunused-value -Wempty-body -Wuninitialized -Wconditional-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wconstant-conversion -Wint-conversion -Wbool-conversion -Wenum-conversion -Wno-float-conversion -Wnon-literal-null-conversion -Wobjc-literal-conversion -Wshorten-64-to-32 -Wpointer-sign -Wno-newline-eof -Wno-selector -Wno-strict-selector-match -Wundeclared-selector -Wdeprecated-implementations -DCOCOAPODS\=1 -DNS_BLOCK_ASSERTIONS\=1 -DOBJC_OLD_DISPATCH_PROTOTYPES\=0 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -fasm-blocks -fstrict-aliasing -Wprotocol -Wdeprecated-declarations -g -fvisibility\=hidden -Wno-sign-conversion -Winfinite-recursion -Wcomma -Wblock-capture-autoreleasing -Wstrict-prototypes -Wno-semicolon-before-method-body -Wunguarded-availability -fobjc-abi-version\=2 -fobjc-legacy-dispatch -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-generated-files.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-own-target-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-all-target-headers.hmap -iquote /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App-project-headers.hmap -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator/include -I/Users/ayushb/tmp/NimbleTorch/install/include -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources-normal/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources/x86_64 -I/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/DerivedSources -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -MMD -MT dependencies -MF /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.d --serialize-diagnostics /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.dia -c /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/App/main.m -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/main.o
+    
+    WriteAuxiliaryFile /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        write-file /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList
+    
+    Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/Binary/App normal x86_64 (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target x86_64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App_lto.o -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -ObjC -lc++ -lc10 -lclog -lcpuinfo -leigen_blas -lpthreadpool -lstdc++ -ltorch -ltorch_cpu -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent -framework Foundation -lPods-App -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/App_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/x86_64/Binary/App
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ** BUILD FAILED **
+    
+    
+    The following build commands failed:
+    	Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App normal arm64 (in target 'App' from project 'App')
+    (1 failure)
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libc10.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libclog.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libcpuinfo.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libpthreadpool.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libeigen_blas.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    
+    Ld /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App normal arm64 (in target 'App' from project 'App')
+        cd /var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch
+        /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -target arm64-apple-ios13.0-simulator -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator15.5.sdk -L/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -L/var/folders/y9/mnz6_m2d21g3fq1l8tzpxvkr0000gn/T/CocoaPods-Lint-20220701-17850-hmc3hu-NimbleTorch/Pods/../../../../../../../../Users/ayushb/tmp/NimbleTorch/install/lib -F/Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Products/Release-iphonesimulator -filelist /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App.LinkFileList -Xlinker -rpath -Xlinker @executable_path/Frameworks -dead_strip -Xlinker -object_path_lto -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App_lto.o -Xlinker -objc_abi_version -Xlinker 2 -fobjc-arc -fobjc-link-runtime -ObjC -lc++ -lc10 -lclog -lcpuinfo -leigen_blas -lpthreadpool -lstdc++ -ltorch -ltorch_cpu -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a -force_load /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a -Xlinker -sectcreate -Xlinker __TEXT -Xlinker __entitlements -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/App.app-Simulated.xcent -framework Foundation -lPods-App -Xlinker -no_adhoc_codesign -Xlinker -dependency_info -Xlinker /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/App_dependency_info.dat -o /Users/ayushb/Library/Developer/Xcode/DerivedData/App-akfyhdhkleemkhfpjbddmzfosnzi/Build/Intermediates.noindex/App.build/Release-iphonesimulator/App.build/Objects-normal/arm64/Binary/App
+    ld: in /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a(empty.cpp.o), building for iOS Simulator, but linking in object file built for iOS, file '/Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a' for architecture arm64
+    clang: error: linker command failed with exit code 1 (use -v to see invocation)
+    
+  Testing with `xcodebuild`.
+ -> NimbleTorch (0.1.0)
+    - WARN  | summary: The summary is not meaningful.
+    - ERROR | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild: Returned an unsuccessful exit code.
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  note: Using new build system
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  note: Using codesigning identity override: -
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  note: Build preparation complete
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  note: Planning
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  note: Building targets in dependency order
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libtorch_cpu.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libclog.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libcpuinfo.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libc10.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libeigen_blas.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  ld: warning: ignoring file /Users/ayushb/tmp/NimbleTorch/install/lib/libpthreadpool.a, building for iOS Simulator-x86_64 but attempting to link with file built for iOS-arm64
+    - NOTE  | [NimbleTorch/Core,NimbleTorch/Torch] xcodebuild:  clang: error: linker command failed with exit code 1 (use -v to see invocation)
+
+[!] NimbleTorch did not pass validation, due to 1 error.
+You can use the `--no-clean` option to inspect any issue.
+
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/lib/lint.rb:113:in `block in run'
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/lib/lint.rb:75:in `each'
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command/lib/lint.rb:75:in `run'
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/claide-1.1.0/lib/claide/command.rb:334:in `run'
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/lib/cocoapods/command.rb:52:in `run'
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/gems/cocoapods-1.11.3/bin/pod:55:in `<top (required)>'
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in `load'
+/opt/homebrew/Cellar/cocoapods/1.11.3/libexec/bin/pod:25:in `<main>'

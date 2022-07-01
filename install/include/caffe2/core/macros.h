@@ -9,7 +9,7 @@
 // as a track point for bugs, until we find a proper versioning cycle.
 
 #define CAFFE2_VERSION_MAJOR 1
-#define CAFFE2_VERSION_MINOR 8
+#define CAFFE2_VERSION_MINOR 13
 #define CAFFE2_VERSION_PATCH 0
 
 static_assert(
@@ -50,14 +50,16 @@ static_assert(
 
 // Useful build settings that are recorded in the compiled binary
 #define CAFFE2_BUILD_STRINGS { \
-  {"TORCH_VERSION", "1.8.0"}, \
+  {"TORCH_VERSION", "1.13.0"}, \
   {"CXX_COMPILER", "/usr/bin/g++"}, \
-  {"CXX_FLAGS", "-fvisibility-inlines-hidden -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DUSE_PYTORCH_QNNPACK -DUSE_XNNPACK -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wno-unused-function -Wno-unused-result -Wno-unused-local-typedefs -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -Wno-invalid-partial-specialization -Wno-typedef-redefinition -Wno-unknown-warning-option -Wno-unused-private-field -Wno-inconsistent-missing-override -Wno-aligned-allocation-unavailable -Wno-c++14-extensions -Wno-constexpr-not-const -Wno-missing-braces -Qunused-arguments -fcolor-diagnostics -fno-math-errno -fno-trapping-math -Werror=format -Werror=cast-function-type -Wno-unused-private-field -Wno-missing-braces -Wno-c++14-extensions -Wno-constexpr-not-const"}, \
+  {"CXX_FLAGS", "-fobjc-arc -Wno-deprecated -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DBUILD_LITE_INTERPRETER -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wno-narrowing -Wall -Wextra -Werror=return-type -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-unused-function -Wno-unused-result -Wno-strict-overflow -Wno-strict-aliasing -Wno-error=deprecated-declarations -Wno-range-loop-analysis -Wno-pass-failed -Wno-error=pedantic -Wno-error=redundant-decls -Wno-error=old-style-cast -Wno-invalid-partial-specialization -Wno-typedef-redefinition -Wno-unknown-warning-option -Wno-unused-private-field -Wno-inconsistent-missing-override -Wno-aligned-allocation-unavailable -Wno-c++14-extensions -Wno-constexpr-not-const -Wno-missing-braces -Qunused-arguments -fcolor-diagnostics -fno-math-errno -fno-trapping-math -Werror=format -Werror=cast-function-type -Wno-unused-private-field -Wno-missing-braces -Wno-c++14-extensions -Wno-constexpr-not-const"}, \
   {"BUILD_TYPE", "MinSizeRel"}, \
   {"BLAS_INFO", ""}, \
   {"LAPACK_INFO", ""}, \
   {"USE_CUDA", "OFF"}, \
+  {"USE_ROCM", "OFF"}, \
   {"CUDA_VERSION", ""}, \
+  {"ROCM_VERSION", ""}, \
   {"USE_CUDNN", "OFF"}, \
   {"CUDNN_VERSION", ""}, \
   {"USE_NCCL", "OFF"}, \

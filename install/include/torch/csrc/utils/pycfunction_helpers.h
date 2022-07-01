@@ -3,5 +3,6 @@
 #include <Python.h>
 
 inline PyCFunction castPyCFunctionWithKeywords(PyCFunctionWithKeywords func) {
-  return (PyCFunction)(void(*)(void))func;
+  // NOLINTNEXTLINE(modernize-redundant-void-arg)
+  return (PyCFunction)(void (*)(void))func;
 }

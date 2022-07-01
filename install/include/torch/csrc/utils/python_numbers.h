@@ -43,6 +43,7 @@ inline bool THPUtils_checkLong(PyObject* obj) {
 }
 
 inline int32_t THPUtils_unpackInt(PyObject* obj) {
+  // NOLINTNEXTLINE(cppcoreguidelines-init-variables)
   int overflow;
   long value = PyLong_AsLongAndOverflow(obj, &overflow);
   if (value == -1 && PyErr_Occurred()) {
@@ -59,6 +60,7 @@ inline int32_t THPUtils_unpackInt(PyObject* obj) {
 }
 
 inline int64_t THPUtils_unpackLong(PyObject* obj) {
+  // NOLINTNEXTLINE(cppcoreguidelines-init-variables)
   int overflow;
   long long value = PyLong_AsLongLongAndOverflow(obj, &overflow);
   if (value == -1 && PyErr_Occurred()) {
@@ -89,7 +91,7 @@ inline uint64_t THPUtils_unpackUInt64(PyObject* obj) {
   return (uint64_t)value;
 }
 
-inline bool THPUtils_checkIndex(PyObject *obj) {
+inline bool THPUtils_checkIndex(PyObject* obj) {
   if (PyBool_Check(obj)) {
     return false;
   }
@@ -157,7 +159,7 @@ inline double THPUtils_unpackDouble(PyObject* obj) {
   return value;
 }
 
-inline c10::complex<double> THPUtils_unpackComplexDouble(PyObject *obj) {
+inline c10::complex<double> THPUtils_unpackComplexDouble(PyObject* obj) {
   Py_complex value = PyComplex_AsCComplex(obj);
   if (value.real == -1.0 && PyErr_Occurred()) {
     throw python_error();
@@ -177,6 +179,7 @@ inline bool THPUtils_unpackNumberAsBool(PyObject* obj) {
     return !(real_val == 0 && imag_val == 0);
   }
 
+  // NOLINTNEXTLINE(cppcoreguidelines-init-variables)
   int overflow;
   long long value = PyLong_AsLongLongAndOverflow(obj, &overflow);
   if (value == -1 && PyErr_Occurred()) {

@@ -1,0 +1,6 @@
+Target dependency graph (3 targets)
+NimbleTorch in Pods, no dependencies
+Pods-NimbleTorch_Example in Pods, depends on:
+NimbleTorch in Pods (explicit)
+Pods-NimbleTorch_Tests in Pods, depends on:
+Pods-NimbleTorch_Example in Pods (explicit)
