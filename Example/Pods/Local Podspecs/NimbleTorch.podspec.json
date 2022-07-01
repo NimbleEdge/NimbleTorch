@@ -1,0 +1,22 @@
+{
+  "name": "NimbleTorch",
+  "version": "0.1.0",
+  "summary": "A short description of NimbleTorch.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Ayush Bansal/NimbleTorch",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Ayush Bansal": "ayushb268@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Ayush Bansal/NimbleTorch.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "NimbleTorch/Classes/**/*"
+}

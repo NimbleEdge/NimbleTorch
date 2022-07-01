@@ -1,0 +1,6 @@
+framework module Pods_NimbleTorch_Example {
+  umbrella header "Pods-NimbleTorch_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

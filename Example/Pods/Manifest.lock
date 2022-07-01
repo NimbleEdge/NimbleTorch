@@ -1,0 +1,16 @@
+PODS:
+  - NimbleTorch (0.1.0)
+
+DEPENDENCIES:
+  - NimbleTorch (from `../`)
+
+EXTERNAL SOURCES:
+  NimbleTorch:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NimbleTorch: 31883257f20c9c2aeea21381324c4307cc411fc9
+
+PODFILE CHECKSUM: 6dbf1bf47edce1501312b263b32aebf23f34f12e
+
+COCOAPODS: 1.11.3
